@@ -98,11 +98,8 @@ $(document).ready(function(){
                 0:{
                     items:1,
                 },
-                576:{
-                    items:2
-                },
                 767:{
-                    items:3,
+                    items:2,
                 },
                 992:{
                     items:4,
