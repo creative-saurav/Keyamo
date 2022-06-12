@@ -1,0 +1,117 @@
+@media all and (min-width:992px){
+    .menu-area ul{
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+    }
+    .toggle-icon{
+        display: none !important ;
+    }
+}
+@media all and (max-width:992px){
+    h1 {
+        font-size: 30px;
+    }
+
+    .menu-area ul {
+        position: absolute;
+        top: 80px;
+        background:#222;
+        box-shadow: 1rem 1rem 1.9rem rgba(0, 0, 0, 0.1);
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        width: 300px;
+        height: 100vh;
+        right: -450px;
+        -webkit-transition: .5s;
+        transition: .5s;
+    }
+    .menu-area ul li {
+        padding: 8px 0;
+    }
+    .toggle-icon{
+        display: block ;
+    }
+    .menu-area .right{
+        right: 0;
+    }
+    /* Bannar Area */
+    .slide-bannar {
+        padding-top: 17rem;
+    }
+    .bannar-content {
+        padding: 0 5rem;
+    }
+    .bannar-content h1 {
+        margin-bottom: 1rem;
+    }
+    /* Quality Area  */
+    .quality-left img {
+        margin: auto;
+    }
+    .quality-left{
+        margin-bottom: 2rem;
+    }
+    /* Footer Area */
+    .single-footer {
+        margin-bottom: 4rem;
+    }
+}
+@media  all and (max-width:767px){
+    /* Hero Area */
+    .hero-area {
+        padding: 7rem 0;
+    }
+    /* Testimonials Area */
+    .or-1{
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
+    }
+    .testimonials-right {
+        padding-left: 0;
+    }
+    /* Fun fact Area */
+    .gsc-column {
+        margin-bottom: 25px;
+    }
+    .gsc-column:after {
+        display: none;
+    }
+    /* Client Area */
+    .client-area {
+        padding: 3rem 0;
+    }
+    /* Quality Area */
+    .quality-right {
+        margin-top: 30px;
+    }
+}
+@media all and (max-width:576px){
+    .bannar-content p {
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .bannar-content {
+        padding: 0 3rem;
+    }
+    /* Vedio Paralax Area */
+    .vedio-content h2 {
+        font-size: 2.5rem;
+    }
+    /* Portfolio area */
+    .port-header ul {
+        margin-top: 1.5rem;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+    /* Team Members Area */
+    .over-social {
+        top: -4.5rem;
+    }
+    .inner-testimonials .owl-nav .owl-prev, .inner-testimonials .owl-nav .owl-next {
+        display: none;
+    }
+}
