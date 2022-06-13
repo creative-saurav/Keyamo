@@ -48,7 +48,7 @@ $(document).ready(function(){
                 0:{
                     items:1,
                 },
-                767:{
+                768:{
                     items:1,
                 },
                 1000:{
@@ -101,7 +101,7 @@ $(document).ready(function(){
                 576:{
                     items:1,
                 },
-                767:{
+                768:{
                     items:2,
                 },
                 992:{
@@ -122,7 +122,7 @@ $(document).ready(function(){
                 0:{
                     items:1,
                 },
-                600:{
+                768:{
                     items:3,
                 },
                 1000:{

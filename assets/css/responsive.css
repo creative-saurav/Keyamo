@@ -66,7 +66,7 @@
         margin-bottom: 4rem;
     }
 }
-@media  all and (max-width:767px){
+@media  all and (max-width:768px){
     /* Hero Area */
     .hero-area {
         padding: 7rem 0;
@@ -94,6 +94,12 @@
     /* Quality Area */
     .quality-right {
         margin-top: 30px;
+    }
+    .client-area .owl-nav .owl-prev, .client-area .owl-nav .owl-next, .team-member .owl-nav .owl-prev, .team-member .owl-nav .owl-next {
+        display: none;
+    }
+    .inner-testimonials .owl-nav .owl-prev, .inner-testimonials .owl-nav .owl-next {
+        display: none;
     }
 }
 @media all and (max-width:576px){
