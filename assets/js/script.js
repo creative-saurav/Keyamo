@@ -51,7 +51,7 @@ $(document).ready(function(){
                 768:{
                     items:1,
                 },
-                1000:{
+                992:{
                     items:3,
                 }
             }
@@ -101,7 +101,7 @@ $(document).ready(function(){
                 576:{
                     items:1,
                 },
-                768:{
+                767:{
                     items:2,
                 },
                 992:{
@@ -122,10 +122,10 @@ $(document).ready(function(){
                 0:{
                     items:1,
                 },
-                768:{
+                767:{
                     items:3,
                 },
-                1000:{
+                992:{
                     items:5,
                 }
             }
