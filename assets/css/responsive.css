@@ -15,7 +15,7 @@
 
     .menu-area ul {
         position: absolute;
-        top: 80px;
+        top: 79px;
         background:#222;
         box-shadow: 1rem 1rem 1.9rem rgba(0, 0, 0, 0.1);
         -webkit-box-orient: vertical;
@@ -27,6 +27,7 @@
         right: -450px;
         -webkit-transition: .5s;
         transition: .5s;
+        display: none;
     }
     .menu-area ul li {
         padding: 8px 0;
@@ -36,6 +37,8 @@
     }
     .menu-area .right{
         right: 0;
+        display: block !important;
+        transition: .5s ease-in-out;
     }
     /* Bannar Area */
     .slide-bannar {
