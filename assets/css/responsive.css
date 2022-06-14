@@ -12,7 +12,6 @@
     h1 {
         font-size: 30px;
     }
-
     .menu-area ul {
         position: absolute;
         top: 79px;
@@ -24,10 +23,10 @@
                 flex-direction: column;
         width: 300px;
         height: 100vh;
-        right: -450px;
+        left: -450px;
         -webkit-transition: .5s;
         transition: .5s;
-        display: none;
+        display: none; 
     }
     .menu-area ul li {
         padding: 8px 0;
@@ -36,9 +35,7 @@
         display: block ;
     }
     .menu-area .right{
-        right: 0;
-        display: block !important;
-        transition: .5s ease-in-out;
+        left: 0;
     }
     /* Bannar Area */
     .slide-bannar {
